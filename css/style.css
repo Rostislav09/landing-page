@@ -1,0 +1,164 @@
+
+.green {
+    color: green;
+}
+.orange {
+    color: orangered;
+}
+.red {
+    color: red;
+}
+
+.grey-line {
+    background: #fff;
+    padding: 8px 0;
+}
+
+.main-nav li a {
+    padding: 15px 20px;
+    color: black;
+}
+
+
+.main-nav .nav-link:hover {
+    background-color: #bed0e4;
+    text-decoration: none;
+}
+
+.main-logo {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: baseline;
+	align-content: stretch;
+    color: black;
+}
+
+.main-logo img {
+    height: 50px;
+}
+
+.main-logo h1 {
+    display: inline;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.main-logo:hover {
+    text-decoration: none;
+}
+
+.block-adv {
+    background-image: url(../images/background-adv.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    padding: 50px 0;
+    margin: 5px;
+}
+
+.block-adv h2 {
+    margin-bottom: 20px 5px;
+    margin-left: 330px;
+    color: #fff;
+}
+
+.block-adv ul {
+    margin: 50px 80px;
+    color: #fff;
+}
+
+.block-adv ul li {
+    margin-top: 2%;
+    margin-left: 280px;
+    font-size: 20px;
+}
+
+h3 {
+    margin: 30px;
+    /* text-align: center; */
+}
+
+/* --------card------ */
+
+.card {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    text-align: center;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #1e2124;
+}
+
+.card .description {
+    padding: 30px;
+}
+
+.card .description ul {
+    list-style-type: none;
+}
+
+.card .description ul li label {
+    display: inline-block;
+    width: 70%;
+}
+
+.card .description ul li span {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+}
+
+.card .text-center .btn a img {
+    min-width: 20px;
+    min-height: 20px;
+}
+
+/* ------------map---------------- */
+
+.map {
+    background-color: #bed0e4;
+    margin: 40px 0;
+    padding: 30px 0;
+}
+
+/* ------------economim------------- */
+.economim {
+    margin: 40px o;
+    padding: 30px 0;
+}
+
+.economim-logo {
+    font-size: 48px;
+}
+
+/* --------------zakaz---------- */
+.zakaz {
+    background-color: #bed0e4;
+    margin: 40px 0;
+    padding: 30px 0;
+}
+
+
+/* ----------footer------- */
+
+.footer-contact ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-contact label {
+    display: inline-block;
+    width: 20%;
+    font-size: 16px;
+}
+
+.footer-contact a {
+    display: inline-block;
+    width: 70%;
+    font-size: 16px;
+}
